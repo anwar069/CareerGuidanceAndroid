@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="green" type="color">#00a300</item>
+    <item name="red" type="color">#f83d2a</item>
+    <item name="pink" type="color">#f72570</item>
+    <item name="darkblue" type="color">#337bf4</item>
+    <item name="darkpurple" type="color">#9632f4</item>
+    <item name="darkgreen" type="color">#20a25a</item>
+    <item name="darkorange" type="color">#FFFF8800</item>
+    <item name="lightgreen" type="color">#63c345</item>
+    <item name="darkred" type="color">#FFCC0000</item>
+    <item name="white" type="color">#FFFFFF</item>
+    <item name="list_background" type="color">#FFFFFF</item>
+    <item name="list_background_pressed" type="color">#FF33B5E5</item>
+
+
+
+    <integer-array name="metroColors">
+        <item>@color/darkblue</item>
+        <item>@color/lightgreen</item>
+    </integer-array>
+
+    <color name="counter_text_bg">#FFFFFF</color>
+    <color name="list_item_title">#000000</color>
+    <color name="counter_text_color">#FFFFFF</color>
+    <color name="action_bar_color">#9cc33d</color>
+    <color name="action_bar_bg_color">#236594</color>
+
+    <color name="black_overlay">#11000000</color>
+    <color name="blue_overlay">#aa000033</color>
+    <color name="transparent">#11000000</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="black">#000000</color>
+    <color name="purple">#9632f4</color>
+    <color name="resultScoreColor">#4e9a30</color>
+
+</resources>

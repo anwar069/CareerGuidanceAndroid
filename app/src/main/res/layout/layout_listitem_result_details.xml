@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="300dp"
+    android:background="#A8A8A8"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="com.persistent.medicalmcq.ResultDetailsActivity">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_margin="2dp"
+        android:layout_weight="50"
+        android:background="@color/white"
+        android:padding="10dp"
+        android:id="@+id/questionText"
+        android:text="2. orem ipsum dolor sit ametconsecte tur adipiscing elit, sed do eiusmod"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="50"
+        android:orientation="vertical"
+        android:weightSum="100">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="50"
+            android:orientation="horizontal"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="60"
+                android:background="#E9E9E9"
+                android:padding="10dp"
+                android:text="Correct Ans"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                 />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/correctAnswer"
+                android:layout_marginRight="2dp"
+                android:layout_weight="40"
+                android:background="#E9E9E9"
+                android:padding="10dp"
+                android:text="Question"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="50"
+            android:weightSum="100">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="2dp"
+                android:layout_weight="60"
+                android:background="#E9E9E9"
+                android:padding="10dp"
+                android:text="Your Ans"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                 />
+
+            <TextView
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/yourAnswer"
+                android:layout_marginBottom="2dp"
+                android:layout_marginRight="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="40"
+                android:background="#E9E9E9"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
